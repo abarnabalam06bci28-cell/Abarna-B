@@ -1,0 +1,8 @@
+a=int(input("enter a number:"))
+b=int(input("enter a number:"))
+sum=float(a+b)
+sub=float(a-b)
+mul=float(a*b)
+print(sum)
+print(sub)
+print(mul)
