@@ -1,0 +1,7 @@
+#include <stdio.h> // Header file for standard input/output functions
+
+int main() {
+    // The main function is the entry point of every C program
+    printf("Hello, World!\n"); 
+    return 0; // Indicates that the program executed successfully
+}
