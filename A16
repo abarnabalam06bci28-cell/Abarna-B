@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    int age = 25;          // Integer (whole number)
+    float height = 5.9;    // Floating-point number (decimal)
+    char grade = 'A';      // Single character (must use single quotes)
+
+    printf("Age: %d\n", age);       // %d is the format specifier for int
+    printf("Height: %.1f\n", height); // %.1f prints a float with 1 decimal place
+    printf("Grade: %c\n", grade);   // %c is the format specifier for char
+
+    return 0;
+}
