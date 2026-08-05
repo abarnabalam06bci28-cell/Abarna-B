@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    int score = 85;
+
+    if (score >= 90) {
+        printf("Excellent!\n");
+    } else if (score >= 70) {
+        printf("Good job.\n");
+    } else {
+        printf("Keep trying.\n");
+    }
+
+    return 0;
+}
