@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    int num = 42;
+    int *ptr = &num; // ptr stores the memory address of num
+
+    printf("Value of num: %d\n", num);
+    printf("Address of num: %p\n", (void*)&num);
+    printf("Value stored in ptr (address of num): %p\n", (void*)ptr);
+    printf("Value pointed to by ptr (dereferencing): %d\n", *ptr);
+
+    return 0;
+}
