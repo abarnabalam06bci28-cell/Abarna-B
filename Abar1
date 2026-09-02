@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main() {
+    // This function prints the text to the screen
+    printf("Hello, World!\n");
+    
+    // Indicates that the program ended successfully
+    return 0;
+}
